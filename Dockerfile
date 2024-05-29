@@ -1,2 +1,2 @@
-FROM bitnami/redmine:5.1.1-debian-11-r6
+FROM bitnami/redmine:4.0.3-ol-7-r2
 #COPY database.yml //opt/bitnami/redmine/config/database.yml
