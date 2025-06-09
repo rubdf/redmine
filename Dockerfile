@@ -1,12 +1,5 @@
 #FROM redmine:5.1.2-alpine3.19
-#FROM redmine:6.0.5-alpine
 FROM redmine:6.0.5-alpine
-WORKDIR /usr/src/redmine
-COPY Gemfile Gemfile.lock ./
-RUN gem install bundler && \
-    bundle config set --local without 'development test' && \
-    bundle install
-RUN bundle update redmine_crm
 # Defina o diretório de trabalho
 #WORKDIR /usr/src/redmine
 
