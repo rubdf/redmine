@@ -1,5 +1,6 @@
 #FROM redmine:5.1.2-alpine3.19
 FROM redmine:6.0.5-alpine
+RUN bundle update redmine_crm
 # Defina o diretório de trabalho
 #WORKDIR /usr/src/redmine
 
