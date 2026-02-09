@@ -1,5 +1,7 @@
-#FROM redmine:5.1.2-alpine3.19
-FROM redmine:6.0.5-alpine
+FROM redmine:latest
+
+# funcionado o debaixo
+#FROM redmine:6.0.5-alpine
 # Defina o diretório de trabalho
 #WORKDIR /usr/src/redmine
 
