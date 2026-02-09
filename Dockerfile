@@ -1,4 +1,4 @@
-FROM redmine:latest
+FROM redmine
 
 # funcionado o debaixo
 #FROM redmine:6.0.5-alpine
